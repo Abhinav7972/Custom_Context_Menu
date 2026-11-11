@@ -1,7 +1,7 @@
 
 
 const contextMenu = document.querySelector('#contextMenu');
-
+const share = document.querySelector('#share');
 
 document.addEventListener('contextmenu',(e)=>{
     const selected = getSelectedText();
@@ -23,6 +23,12 @@ document.addEventListener('contextmenu',(e)=>{
 
 document.addEventListener('click',()=>{
         contextMenu.style.display = 'none';
+})
+
+
+share.addEventListener('mousedown',(e)=>{
+e.preventDefault();
+console.log('share : ' + getSelectedText())
 })
 
 
