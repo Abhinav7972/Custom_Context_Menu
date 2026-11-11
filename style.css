@@ -1,0 +1,15 @@
+ul#contextMenu
+{
+list-style: none;
+position: absolute;
+display: none;
+margin: 0px;
+padding: 0px;
+}
+
+ul#contextMenu li 
+{
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: white;
+}
