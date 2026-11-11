@@ -21,6 +21,11 @@ document.addEventListener('contextmenu',(e)=>{
 })
 
 
+document.addEventListener('click',()=>{
+        contextMenu.style.display = 'none';
+})
+
+
 
 
 
